@@ -11,9 +11,7 @@ A Hospital Management Project that helps manage the hospital.Patients set their 
 
 ## [Demo](https://wambo-hospitalm.herokuapp.com/) click to view
 
-![Image](static/images/Screenshot%20from%202022-06-30%2013-49-36.png)
-![Image](static/images/Screenshot%20from%202022-06-30%2013-49-10.png)
-![Image](static/images/Screenshot%20from%202022-06-30%2013-51-30.png)
+![Image](static/images/Screenshot%20from%202022-06-30%2022-48-11.png)
 
 ## Technologies Used
 * Python
