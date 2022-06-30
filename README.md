@@ -2,15 +2,12 @@
 ## Author
 [Yvonne Muthui](https://github.com/wambui-123)
 ## Description
-A CRM(Customer relationship management) system created to confirm that business communication with consumers goes smoothly and efficiently in order to increase the overall profits. The application is to be used by a company to monitor their roles. Leads will be updated and Agents are given the role to the leads listed.
+A Hospital Management Project that helps manage the hospital.Patients set their own appointments and Doctors are able to view them.
 ## User Story
 * Sign in with the application to start using.
 * Login with the application.
-* View dashboard to see all leads.
-* Add/Upload Agents.
-* Assign roles/leads to agents.
-* Edit Profile information
-* Set catergory.
+* View dashboard to see all the appointments.
+* Set appointments.
 
 ## [Demo](https://wambo-hospitalm.herokuapp.com/) click to view
 
