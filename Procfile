@@ -1,1 +1,1 @@
-web: gunicorn afya.wsgi 
+web: gunicorn logic.wsgi --log-file -
