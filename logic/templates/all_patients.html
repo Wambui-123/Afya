@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block content %}
+{% load static %}
+<div class="container rounded mt-3 sidebar d-flex flex-column">
+
+<div class="container-fluid">
+    <div class="mx-4 mt-3 mb-4 my-5">
+        <div class="d-flex justify-content-between">
+            <div>
+                <p class="lead bold-2 ">All Patients  </p>
+
+            </div>
+            <div>
+                <a href="{%url 'patient_reg'%}">
+                    <button class="btn btn-dark">Add a Patient</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <table class="table table-striped">
+        <thead>
+          <tr class="doc_record2">
+            <th>Username</th>
+            <th>Email</th>
+            <th>last login</th>
+          </tr>
+        </thead>
+        <tbody>
+         {% for patient in patients %}
+         <tr class="doc_record  border-1">
+            <td >{{patient.user.username}}</td>
+            <td>{{patient.user.email}}</td>
+            <td>{{patient.user.last_login}}</td>
+          </tr>
+         {% endfor %}
+    
+    
+        </tbody>
+      </table>
+</div>
+
+</div>
+{% endblock %}
